@@ -41,7 +41,7 @@ function animateAndPlaySound(color) {
 }
 
 function playSound(name) {
-  new Audio(`../../sounds/${name}.mp3`).play();
+  new Audio(`https://github.com/HouariAouinti/Simon-Game/tree/bc05f2ab1b09f60673aff77c2bba7fad6c1300c3/sounds/${name}.mp3`).play();
 }
 
 function resetGame() {
