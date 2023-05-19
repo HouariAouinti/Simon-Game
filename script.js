@@ -41,7 +41,7 @@ function animateAndPlaySound(color) {
 }
 
 function playSound(name) {
-  new Audio(`../../sounds/${name}.mp3`).play();
+  new Audio(`sounds/${name}.mp3`).play();
 }
 
 function resetGame() {
